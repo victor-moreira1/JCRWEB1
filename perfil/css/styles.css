@@ -1,0 +1,37 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    text-align: left;
+}
+
+#Nome {
+    text-align: center;
+    color: brown;
+}
+
+.projeto {
+    display: inline-block;
+    background-color: lightblue;
+    border: 40px;
+    padding: 20px;
+    margin: 20px;
+    list-style-type: none;
+}
+
+.secao1 ::first-letter {
+    font-size: 40px;
+    color: blue;
+}
+
+.items {
+    list-style-type: none;
+    text-align: left;
+}
+
+.items li:nth-child(odd) {
+    background-color: brown;
+}
+
+.projeto :hover {
+    background-color: lightcyan;
+}
